@@ -1,0 +1,7 @@
+interface:
+  display_name: "Professor Seeking by School / 按学校找导师"
+  short_description: "Build a ranked advisor shortlist for one school from CSRankings, recent papers and recruiting signals"
+  default_prompt: "Use $professor-seeking-skill-by-school to find the best potential PhD advisors for me at this school, skipping anyone I've already emailed."
+
+policy:
+  allow_implicit_invocation: true
